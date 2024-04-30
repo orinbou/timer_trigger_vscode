@@ -36,9 +36,9 @@ To run the code snippet generated through the command palette, note the followin
 - Confirm that the parameters within the trigger reflect values that correspond with your storage account.
 - The name of the file must be `function_app.py`.
 
-## Programming Model V2 
+## Programming Model V2
 
-The new programming model in Azure Functions Python delivers an experience that aligns with Python development principles, and subsequently with commonly used Python frameworks. 
+The new programming model in Azure Functions Python delivers an experience that aligns with Python development principles, and subsequently with commonly used Python frameworks.
 
 The improved programming model requires fewer files than the default model, and specifically eliminates the need for a configuration file (`function.json`). Instead, triggers and bindings are represented in the `function_app.py` file as decorators. Moreover, functions can be logically organized with support for multiple functions to be stored in the same file. Functions within the same function application can also be stored in different files, and be referenced as blueprints.
 
